@@ -1,0 +1,35 @@
+{
+  "name": "scraping-web",
+  "version": "1.0.0",
+  "description":
+    "Scraping a web page with JavaScript (Chrome + Puppeteer + Node JS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,css,md}": ["prettier-standard", "git add"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i62navpm/scrapingWeb.git"
+  },
+  "author": "Manuel Navarro Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i62navpm/scrapingWeb/issues"
+  },
+  "homepage": "https://github.com/i62navpm/scrapingWeb#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier-standard": "^7.0.3"
+  }
+}
